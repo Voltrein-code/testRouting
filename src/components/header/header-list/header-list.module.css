@@ -1,0 +1,41 @@
+.header_menu {
+
+}
+
+.linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: max-content 3.7fr 1fr;
+  align-items: center;
+}
+
+.linkList_item {
+  text-align: center;
+}
+
+.linkList_childItem {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  list-style: none;
+  padding: 0;
+}
+
+.header_link {
+  margin: 0;
+  padding: 0;
+ display: flex;
+ align-items: end;
+ cursor: pointer;
+ justify-content: end;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-inactive-color)
+}
+
+.link_active {
+  color: var(--text-primary-color);
+}

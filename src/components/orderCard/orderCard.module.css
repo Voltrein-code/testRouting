@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  border-radius: 40px;
+  background-color: var(--background);
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link {
+  color: var(--text-primary-color);
+  text-decoration: none;
+}

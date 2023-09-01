@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  max-width: 480px;
+  text-align: end;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 28px;
+}
+
+.buttonCancel {
+  padding: 0;
+}

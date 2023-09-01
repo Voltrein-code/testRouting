@@ -1,0 +1,38 @@
+.loader {
+  position: relative;
+  width: 40%;
+  height: 40%;
+}
+
+.overlay {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #131316;
+  position: fixed;
+  opacity:0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.loader:before , .loader:after{
+  content: '';
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 0 10px 5px rgba(55, 54, 54, 0.3) inset;
+}
+.loader:after {
+  box-shadow: 0 5px 0 #7e04ca inset;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {  transform: rotate(0)}
+  100% { transform: rotate(360deg)}
+}
+
+

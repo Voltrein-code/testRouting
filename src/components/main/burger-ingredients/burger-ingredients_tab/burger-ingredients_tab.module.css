@@ -1,0 +1,12 @@
+.main_title {
+  display: flex;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.tab {
+  box-shadow: inset 0px -2px 0px #4C4CFF;
+}

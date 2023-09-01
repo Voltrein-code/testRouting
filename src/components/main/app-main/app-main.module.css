@@ -1,0 +1,20 @@
+.main {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.main_ingredientBlock {
+  height: calc(100vh - 302px);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.main_constructorBlock {
+  height: calc(100vh - 208px);
+}
+
+
+
+

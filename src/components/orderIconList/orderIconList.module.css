@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  row-gap: 24px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.modal {
+  display: flex;
+}
+
